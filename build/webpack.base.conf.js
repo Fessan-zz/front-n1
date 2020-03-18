@@ -6,7 +6,7 @@ const fs = require("fs");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const { VueLoaderPlugin } = require("vue-loader");
+// const { VueLoaderPlugin } = require("vue-loader");
 
 // Main const. Feel free to change it
 const PATHS = {
@@ -16,7 +16,6 @@ const PATHS = {
 };
 
 // Pages const for HtmlWebpackPlugin
-// see more: https://github.com/vedees/webpack-template/blob/master/README.md#html-dir-folder
 const PAGES_DIR = PATHS.src;
 const PAGES = fs
   .readdirSync(PAGES_DIR)
@@ -128,11 +127,11 @@ module.exports = {
   resolve: {
     alias: {
       "~": PATHS.src,
-      vue$: "vue/dist/vue.js"
+      // vue$: "vue/dist/vue.js"
     }
   },
   plugins: [
-    new VueLoaderPlugin(),
+    // new VueLoaderPlugin(),
     new MiniCssExtractPlugin({
       filename: `${PATHS.assets}css/[name].[contenthash].css`
     }),
@@ -144,10 +143,6 @@ module.exports = {
 
     /*
       Automatic creation any html pages (Don't forget to RERUN dev server!)
-      See more:
-      https://github.com/vedees/webpack-template/blob/master/README.md#create-another-html-files
-      Best way to create pages:
-      https://github.com/vedees/webpack-template/blob/master/README.md#third-method-best
     */
     ...PAGES.map(
       page =>
