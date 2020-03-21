@@ -7,25 +7,71 @@
     <title>Webpack Template</title>
   </head>
   <body>
-    <div class="wrapper">
-      <div id="app">
-        <header></header>
-
-        <div class="content-wrapper">
-
-          <!-- expamle section (remove me) -->
-          <section id="promo" style="text-align:center;">
-            <div class="container">
-              <h1>Webpack Template</h1>
-            </div>
-          </section>
-
-          <!-- expamle vue component -->
-          <example-component />
+    <!-- header -->
+    <header class="header">
+      <div class="header__cont flex">
+        <div class="logo">
+          <img src="assets/img/logo.png" alt="logo">
         </div>
+        <nav class="menu flex">
+          <a href="#" class="menu__text1">Home</a>
+          <a href="#" class="menu__text">Features</a>
+          <a href="#" class="menu__text">Pricing</a>
+          <a href="#" class="menu__text">Pages</a>
+          <div class="menu__btn btn">
+            <a href="#" class="">SING IN
+            </a>
+          </div>
+        </nav>
+      </div>
 
-        <footer></footer>
-      </div> <!-- end #app wrapper -->
-    </div> <!-- end main wrapper -->
+      <div class="header__desc">
+        <div class="header__desc-text">
+          <h1 class="header__desc-text_h1 flex">Best Desktop App for You</h1>
+          <div class="header__desc-text_span flex">
+            <span>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </span>
+          </div>
+          <div class="header__desc-text_btn flex">
+            <a href="#" class="header__desc-text_btn1 btn">Download</a>
+            <a href="#" class="header__desc-text_btn2 btn">Free Trial</a>
+          </div>
+        </div>
+        <div class="header__desc-img flex">
+          <img src="assets/img/phone_1.png" alt="phones">
+        </div>
+        <div class="header__desc-scrollDown flex">
+          <img src="assets/img/scroolDown.png" alt="scrollDown">
+        </div>
+      </div>
+    </header>
+    <!-- main -->
+    <main class="main">
+      <section class="section-hero flex">
+        <div class="section-hero__blocks1 flex">
+          <img src="assets/img/analysis.png" alt="analysys" class="section-hero__blocks_img">
+          <div class="section-hero__blocks_h">Analysis</div>
+          <span class="section-hero__blocks_span">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          </span>
+        </div>
+        <div class="section-hero__blocks2 flex">
+          <img src="assets/img/clean.png" alt="clean" class="section-hero__blocks_img">
+          <div class="section-hero__blocks_h">Clean Design</div>
+          <span class="section-hero__blocks_span">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          </span>
+        </div>
+        <div class="section-hero__blocks3 flex">
+          <img src="assets/img/messange.png" alt="messange" class="section-hero__blocks_img">
+          <div class="section-hero__blocks_h">Messaging</div>
+          <span class="section-hero__blocks_span">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          </span>
+        </div>
+      </section>
+
+    </main>
   </body>
 </html>

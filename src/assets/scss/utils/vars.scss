@@ -2,13 +2,18 @@
    ========================================================================== */
 
 // Font
-$mainFont                : 'Montserrat', Helvetica, Arial, sans-serif;
+$mainFont                : 'QuickSand-base', Helvetica, Arial, sans-serif;
+$mediumFont              : 'QuickSand-medium', Helvetica, Arial, sans-serif;
+$boldFont                : 'QuickSand-bold', Helvetica, Arial, sans-serif;
 
 // Size
-$mainFontColor           : #101010;
-$mainFontSize            : 18px;
+$mainFontColor           : #929292;
+$secondColor             : #137dff;
+$mainFontSize            : 16px;
 $mainFontWeight          : 400;
-$mainLineHeight          : 1.4;
+$mainFontMedium          : 500;
+$mainFontBold            : 700;
+$mainLineHeight          : 27px;
 
 $desktopWidth            : 1280px;
 $smDesktopWidth          : 1024px;

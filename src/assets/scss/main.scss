@@ -4,6 +4,8 @@
 @import "utils/fonts";
 @import "utils/reset";
 
+
+
 html {
   line-height: $mainLineHeight;
   font-size: $mainFontSize;
@@ -25,6 +27,7 @@ body {
   padding: 0;
   font-family: $mainFont;
   font-size: $mainFontSize;
+  background-color: $default-color;
   font-weight: $mainFontWeight;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -34,6 +37,11 @@ body {
 *:before,
 *:after {
   box-sizing: border-box;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 h1,
@@ -56,51 +64,20 @@ li {
   list-style-type: none;
 }
 
-section,
-.section {
-  position: relative;
-  padding: 40px 0;
-  @media screen and (max-width: $smDesktopWidth) {
-    padding: 36px 0;
-  }
-  @media screen and (max-width: $tableWidth) {
-    padding: 28px 0;
-  }
-  @media screen and (max-width: $phoneWidth) {
-    padding: 20px 0;
-  }
-}
 
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  min-height: 100vh;
-  min-width: 100vh;
-}
 
-.content-wrapper {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
 
-.container {
-  width: 100%;
-  flex: 0 0 auto;
-  position: relative;
-  margin: 0 auto;
-  max-width: $desktopWidth;
-  @media screen and (max-width: $smDesktopWidth) {
-    max-width: $tableWidth;
-  }
-  @media screen and (max-width: $tableWidth) {
-    max-width: $phoneWidth;
-  }
-  @media screen and (max-width: $phoneWidth) {
-    max-width: $smPhoneWidth;
-  }
-}
+
+
+
+///// test ///
+
+
+
+@import "modules/index.scss";
+
+
+
 
 // Modules:
 // example: @import "modules/my-module.scss";

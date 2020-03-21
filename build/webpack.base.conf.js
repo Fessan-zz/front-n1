@@ -54,16 +54,16 @@ module.exports = {
         loader: "babel-loader",
         exclude: "/node_modules/"
       },
-      {
-        // Vue
-        test: /\.vue$/,
-        loader: "vue-loader",
-        options: {
-          loader: {
-            scss: "vue-style-loader!css-loader!sass-loader"
-          }
-        }
-      },
+      // {
+      //   // Vue
+      //   test: /\.vue$/,
+      //   loader: "vue-loader",
+      //   options: {
+      //     loader: {
+      //       scss: "vue-style-loader!css-loader!sass-loader"
+      //     }
+      //   }
+      // },
       {
         // Fonts
         test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
