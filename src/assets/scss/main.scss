@@ -13,12 +13,19 @@ html {
   height: 100%;
   @media screen and (max-width: $desktopWidth) {
     font-size: 16px;
+
   }
   @media screen and (max-width: $tableWidth) {
     font-size: 15px;
+    .section2__img{
+      display: none;
+    }
   }
   @media screen and (max-width: $phoneWidth) {
     font-size: 14px;
+    .section5__img{
+      display: none;
+    }
   }
 }
 
