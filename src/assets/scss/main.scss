@@ -13,16 +13,39 @@ html {
   height: 100%;
   @media screen and (max-width: $desktopWidth) {
     font-size: 16px;
+    .section4__card{
+      
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
 
   }
+
+  @media screen and (max-width: $smDesktopWidth) {
+    
+    .section-hero__blocks1, .section-hero__blocks2, .section-hero__blocks3{
+      margin-top: 25px;
+    }
+  }
+
+
+
+
   @media screen and (max-width: $tableWidth) {
     font-size: 15px;
     .section2__img{
       display: none;
     }
+    .section6__second__left{
+      padding-left: 25px
+    }
+    .section5__item{
+      margin-bottom: 25px;
+    }
   }
   @media screen and (max-width: $phoneWidth) {
     font-size: 14px;
+   
     .section5__img{
       display: none;
     }
