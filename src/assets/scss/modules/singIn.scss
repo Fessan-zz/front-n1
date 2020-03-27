@@ -1,0 +1,126 @@
+.sing__main{
+  margin: 0 auto;
+  max-width: 1140px;
+  width: 100%;
+}
+
+.sing__main_cont{
+  flex-direction: column;
+  align-items: center;
+  max-width: 735px;
+  width: 100%;
+  margin: 120px auto 0 auto;
+
+  .sing__main_h{
+    color: #333333;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 36px;
+
+  }
+
+  .sing__main_p{
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .sing__main_social-btns{
+    max-width: 370px;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 45px;
+
+
+    .sing__main_social-btn_fb{
+      border-radius: 5px;
+      background-color: #3b5999;
+      max-width: 165px;
+      width: 100%;
+      padding-top: 11px;
+      padding-bottom: 11px;
+      text-align: center;
+
+
+      & a{
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 27px;
+        text-transform: uppercase;
+
+        &:hover{
+          text-decoration: underline;
+        }
+        }
+    }
+
+    .sing__main_social-btn_tw{
+      border-radius: 5px;
+      background-color: #55acee;
+      max-width: 165px;
+      width: 100%;
+      padding-top: 11px;
+      padding-bottom: 11px;
+      text-align: center;
+
+      & a{
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 27px;
+      text-transform: uppercase;
+
+      &:hover{
+        text-decoration: underline;
+      }
+      }
+    }
+  }
+
+  .sing__main_or{
+    margin-top: 45px;
+    margin-bottom: 45px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+  }
+
+  .sing__main_form{
+    max-width: 370px;
+    width: 100%;
+  }
+
+  & input{
+    width: 360px;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid #dcdcdc;
+    margin-bottom: 25px;
+    padding-left: 15px;
+  }
+
+  & button{
+    border-radius: 25px;
+    background-color: #0f7bff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    max-width: 165px;
+    width: 100%;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    cursor: pointer;
+    margin-left: 25%;
+
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+
+
+}
+
+

@@ -7,8 +7,8 @@
   max-height: 1027px;
   width: 100%;
   height: 100%;
-  
-  
+
+
 }
 .header_bck{
   background-image: url('/assets/img/shape_1.jpg');
@@ -29,21 +29,19 @@
   align-items: center;
 }
 
-.menu__text, .menu__text1{
+.menu__text{
   font-family: $mediumFont;
   font-weight: 500;
   text-transform: uppercase;
   margin-right: 32px;
   color:#929292;
-  
+
   &:hover{
     text-decoration: underline;
+    color: #0f7bff;
   }
 }
 
-.menu__text1 {
-  color: #0f7bff;
-}
 
 .btn{
   width: 165px;
@@ -100,7 +98,7 @@
     > a{
       display: flex;
       align-items: center;
-      justify-content: center; 
+      justify-content: center;
   }
   .header__desc-text_btn1{
     border-radius: 25px;
@@ -119,7 +117,7 @@
       text-decoration: underline;
     }
   }
- 
+
   }
 }
 
@@ -164,7 +162,7 @@
   background-color: #ffffff;
   flex-direction: column;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
 
   .section-hero__blocks_img{
     width: 70px;
@@ -335,7 +333,7 @@
         &:hover{
           text-decoration: underline;
         }
-        
+
       }
       .section4__cont-btn_2{
         display: block;
@@ -350,12 +348,12 @@
         &:hover{
           text-decoration: underline;
         }
-        
+
       }
 
     }
 
-   
+
 
   }
   .section4__card{
@@ -372,7 +370,7 @@
     justify-content: space-around;
     max-width: 900px;
     width: 100%;
-    
+
   }
   .section4__card_cont{
     width: 165px;
@@ -530,13 +528,13 @@
     margin:  0 auto;
     position: relative;
 
-    
+
     .section6__img_back{
       position: absolute;
       z-index: 0;
       top: -14px;
       left: 44%;
-      
+
     }
 
     h2{
@@ -605,7 +603,7 @@
           line-height: 27px;
           font-family: $mediumFont;
           color: #0f7bff;
-          
+
 
           &:hover{
             text-decoration: underline;
@@ -650,7 +648,7 @@
 }
 
 
-////////// section 7 /////// 
+////////// section 7 ///////
 
 .section7{
   background-color: #f5fcfd;
@@ -728,7 +726,7 @@
   }
 
   .footer__sub{
-    
+
     margin-top: 30px;
     .footer__sub_input{
       max-width: 390px;
@@ -766,8 +764,8 @@
   }
 
 }
-::-webkit-input-placeholder { 
-  color: white; 
+::-webkit-input-placeholder {
+  color: white;
   padding-left: 30px;
 }
 

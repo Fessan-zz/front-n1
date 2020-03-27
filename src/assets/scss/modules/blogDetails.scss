@@ -187,12 +187,13 @@
     margin-top: 32px;
   }
 
+
   .blogD__main-left_button{
     max-width: 165px;
     width: 100%;
     padding-bottom: 10px;
     padding-top: 10px;
-
+    margin-left: 25%;
     border-radius: 25px;
     background-color: #0f7bff;
     color: #ffffff;
@@ -201,6 +202,7 @@
     line-height: 27px;
     margin: 0 0 0 auto;
     cursor: pointer;
+
 
     &:hover{
       text-decoration: underline;

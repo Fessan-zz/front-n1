@@ -14,7 +14,7 @@ html {
   @media screen and (max-width: $desktopWidth) {
     font-size: 16px;
     .section4__card{
-      
+
       margin-top: 50px;
       margin-bottom: 50px;
     }
@@ -22,7 +22,7 @@ html {
   }
 
   @media screen and (max-width: $smDesktopWidth) {
-    
+
     .section-hero__blocks1, .section-hero__blocks2, .section-hero__blocks3{
       margin-top: 25px;
     }
@@ -45,7 +45,7 @@ html {
   }
   @media screen and (max-width: $phoneWidth) {
     font-size: 14px;
-   
+
     .section5__img{
       display: none;
     }
@@ -112,7 +112,9 @@ li {
 
 @import "modules/blogDetails.scss";
 
+@import "modules/singIn.scss";
 
+@import "modules/singUp.scss";
 
 // Modules:
 // example: @import "modules/my-module.scss";

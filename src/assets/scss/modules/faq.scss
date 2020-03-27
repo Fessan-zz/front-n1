@@ -51,7 +51,7 @@ main{
   max-width: 1140px;
   width: 100%;
   margin: auto;
- 
+
 }
 
 .main{
@@ -62,7 +62,7 @@ main{
 .main__left{
   max-width: 360px;
   width: 100%;
-  
+
 
   .main__left_btn{
     color: #333333;
@@ -86,7 +86,7 @@ main{
     color: #ffffff;
   }
 
-  
+
 }
 
 .main__right{
@@ -101,7 +101,7 @@ main{
       margin-bottom: 35px;
     }
 
-   
+
   }
 .main__right__text{
   margin-bottom: 35px;
@@ -124,7 +124,7 @@ main{
       padding-left: 15px;
       padding-right: 15px;
       margin-left: 25px;
-      cursor: pointer;  
+      cursor: pointer;
 
       &:hover{
         text-decoration: underline;
@@ -177,7 +177,7 @@ footer{
   .footer__right{
     max-width: 450px;
     width: 100%;
-    
+
    .footer__right__desc {
      max-width: 110px;
      margin-left: 35px;
@@ -227,16 +227,11 @@ footer{
 
   &:hover{
     text-decoration: underline;
+      color: #0f7bff;
   }
 
 }
-.footer__faq_text1{
-  color: #0f7bff;
 
-  &:hover{
-    text-decoration: underline;
-  }
-}
 
 .footer__arrow-white{
   width: 45px;
